@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true //엄격하게 검사하라는 옵션
+  },
+  "include": [
+    "src/**/*", //소스폴더의 모든 파일에대해
+    "mongoose/**/*",
+    "config/**/*",
+    "api/**/*",
+    "routes/**/*",
+  ]
+}

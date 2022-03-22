@@ -1,0 +1,11 @@
+body{background-color: white;}
+div{height:20px; width:100%; background-color: white;}
+div:focus{outline: none; background-color: rgb(210, 235, 247);}
+.h1{font-size: xx-large; height:40px; padding-bottom: 5px;}
+.h2{font-size: x-large; height:35px; padding-bottom: 4px;}
+.h3{font-size: larger; height:30px; padding-bottom: 3px;}
+.h4{font-size: large; height:25px; padding-bottom: 2px;}
+.h5{font-size: medium; height:20px; padding-bottom: 1px;}
+.h6{font-size: small; height:15px; }
+
+.btn{background-color: red; color: white;}

@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "strict": true //엄격하게 검사하라는 옵션
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+}

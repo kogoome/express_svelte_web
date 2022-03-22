@@ -1,0 +1,22 @@
+doctype html
+html(lang="ko")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="stylesheet", href="css/1.css")
+    script(src="./js/1.js")
+  body
+    button.btn(onclick="modify(event)") 편집모드on
+    section
+      div(contenteditable="true" oninput="text(event)" onkeydown="keydown(event)" onclick="clickk(event)")
+    footer 기능들
+      div - 마우스 클릭으로 위치선택기능
+      div - ctrl + shift + 1, 2, 3 으로 글씨크기 조절 가능
+      div - 텍스트 박스에 수식 입력후 ctrl + shift + 4 로 수식 입력 가능
+      div - 수식은 이미지 태그여서 드래그 복사가 가능
+      div - 수식 세로 가운데 정렬 기능 미비
+      div - 수식을 이미지 태그 말고 다른 걸로 전환 검토 필요
+
+  script(src="https://polyfill.io/v3/polyfill.min.js?features=es6")
